@@ -1,0 +1,34 @@
+*{
+    font-family: 'Pally',"Red Hat Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.container1{
+width: 30%;
+height: 80vh;
+border-radius: 5px;
+}
+.inp1{
+    width: 80%;
+    height: 2.5rem;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid purple;
+}
+.inp2{
+    width: 100%;
+    height:3rem;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 2px solid; */
+    margin-top: 0.5rem;
+}
+.head{
+    margin-top: 100px;
+}
+.meaning{
+    border-left: 3px solid purple;
+    height: 3.5rem;
+    margin-left: 2rem;
+    margin-top:7px;
+
+}

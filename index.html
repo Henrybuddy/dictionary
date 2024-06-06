@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./fonts/css/all.css">
+</head>
+
+<style>
+
+    dl{
+        margin-left: 1rem;
+    }
+    dd{
+        color: gray;
+    }
+
+    input{
+        width: fit-content;
+    }
+    i:nth-of-type(1){
+        color: grey;
+        position: absolute;
+        left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    button {
+        color: gray;
+        border: none;
+        background-color: white;
+        position: absolute;
+        right: 9.5rem;
+        font-weight: 600;
+        margin-top: 0.5rem;
+    }
+    .col-md-11{
+        height: 2px;
+        background-color: rgb(206, 204, 204);
+    }
+    .bord{
+        border-left: 3px solid blue;
+    }
+    body{
+        background-color: blue;
+    }
+</style>
+<body >
+    <div class="container mx-auto col-md-4 bg-white py-5 mt-5">
+        <h1 class="text-center">English Dictionary</h1>
+        <div class="search">
+            <input type="search" placeholder="Search a word" class="px-5 py-2" id="search">
+        <i class="fa fa-search" aria-hidden="false"></i>
+        <!-- <button id="clear">x</button> -->
+        <!-- <button class="btn btn-primary" type="submit">Search</button> -->
+        </div>
+        <br>  
+         <h3 id="word">happy</h3>
+        <div class="text-left" id="box">
+         
+            <p id="word-class">
+                adjective / 'hapi:/
+            </p>
+            <div class=" col-md-11"></div>
+           <div class="bord mt-3">
+            <dl>
+                <dt>Meaning</dt>
+                <dd id="define">
+                    feeling or showing pleasure or contentment
+                </dd>
+            </dl>
+           </div>
+            <div class=" col-md-11"></div>
+            <div class="bord mt-3">
+                <dl>
+                
+                    <dt>Example</dt>
+                    <dd id="example">
+                        Prakash came in looking happy and excited
+                    </dd>
+                </dl>
+                 
+            </div>
+            <div class=" col-md-11"></div>
+            <div class="bord mt-3">
+                <dl>
+                    <dt>Synonyms</dt>
+                    <dd id="synonym">
+                        <u>glad,</u> <u>contented,</u> <u>delighted,</u> <u>cheerful,</u> <u>joyful</u>
+                
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
